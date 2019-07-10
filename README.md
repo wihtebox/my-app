@@ -133,7 +133,7 @@ const rewireLess = require('react-app-rewire-less');
 
 module.exports = override(
   fixBabelImports('import', {
-    libraryName: 'antd',
+    libraryName: 'antd-mobile',
     libraryDirectory: 'es',
     style: true,
   }),
@@ -249,7 +249,7 @@ const addCustomize = () => config => {
 
 module.exports = override(
   fixBabelImports('import', {
-    libraryName: 'ant-mobile',
+    libraryName: 'antd-mobile',
     libraryDirectory: 'es',
     style: true,
   }),
