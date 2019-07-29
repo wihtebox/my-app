@@ -261,7 +261,7 @@ module.exports = override(
 );
 ```
 ###### 3、引入阿里cdn
-在<head></head>中引入阿里cdn
+在index.html中引入阿里cdn
 
 ```
 <script src="//g.alicdn.com/fdilab/lib3rd/viewport-units-buggyfill/0.6.2/??viewport-units-buggyfill.hacks.min.js,viewport-units-buggyfill.min.js"></script>
