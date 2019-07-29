@@ -335,8 +335,8 @@ content: "viewport-units-buggyfill; width: 100vw; height: 26.667vw; line-height:
 ```
 
 ```
-此步骤未验证
-//如果遇到img无法显示，则添加全局css
+特别注意
+//用这个viewport方案，会有一些苹果机无法显示图片，则添加全局css即可完美显示了
 img { 
     content: normal !important; 
 }
